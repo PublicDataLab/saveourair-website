@@ -82,3 +82,26 @@ h1.jumbotron-heading {
 	text-align: center;
 	display: block;
 }
+
+.page-footer {
+	background-color: black;
+	color:white;
+	margin-top: 75px;
+	padding: 20px;
+}
+
+.page-footer img.logo {
+	width: 80px;
+	padding:20px;
+}
+
+.page-footer p {
+	font-family:Rubik, sans-serif;
+	letter-spacing:2px;
+	font-size:10px;
+	line-height:16px;
+}
+
+.page-footer p.license {
+	margin-top:20px;
+}
