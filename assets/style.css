@@ -1,5 +1,6 @@
 :root {
     --main-text-color: #fc3a3a;
+	--theme-color-1: #627aa2;
 }
 
 body {
@@ -46,6 +47,17 @@ h1.jumbotron-heading {
 	font-weight:700;
 	color: var(--main-text-color);
 	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.nav-pills>li>a.active {
+	background-color: var(--theme-color-1) !important;
+	color:white !important;
+}
+
+.nav-pills>li>a:hover {
+	color:white;
+	background-color: var(--theme-color-1);
 }
 
 #main-text {
@@ -56,7 +68,11 @@ h1.jumbotron-heading {
 	padding-top: 75px;
 }
 
-#read-more {
+#main-text a {
+	color:var(--theme-color-1);
+}
+
+a#read-more {
 	border: 2px solid var(--main-text-color);
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -91,8 +107,8 @@ h1.jumbotron-heading {
 }
 
 .page-footer img.logo {
-	width: 80px;
-	padding:20px;
+	width: 100px;
+	padding-right:20px;
 }
 
 .page-footer p {
