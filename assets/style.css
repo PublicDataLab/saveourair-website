@@ -16,7 +16,7 @@ h1.jumbotron-heading {
 }
 
 .jumbotron {
-    background: url("background.jpg") no-repeat center center;
+    background: url("background.jpg") no-repeat center top;
     margin-bottom: 0rem;
     background-attachment: fixed;
     height: 70vh;
@@ -120,4 +120,27 @@ a#read-more {
 
 .page-footer p.license {
 	margin-top:20px;
+}
+
+
+/* sub-pages */
+
+#long-text {
+	font-size: 1.5em;
+	font-family: 'EB Garamond', serif;
+	overflow-wrap:break-word;
+	padding-top:120px;
+}
+
+#long-text h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+#long-text h2 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-bottom: 1em;
 }
