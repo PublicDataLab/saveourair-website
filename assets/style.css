@@ -129,18 +129,24 @@ a#read-more {
 	font-size: 1.5em;
 	font-family: 'EB Garamond', serif;
 	overflow-wrap:break-word;
-	padding-top:120px;
+	padding-top:5em;
 }
 
 #long-text h1 {
 	text-align: center;
 	font-weight: 700;
 	font-size: 2em;
+	padding-bottom: 1em;
 }
 
 #long-text h2 {
-	text-align: center;
+	/* text-align: center; */
 	font-weight: 700;
 	font-size: 1.2em;
+	margin-bottom: 1em;
+}
+
+#long-text p.authors {
+	font-style: italic;
 	margin-bottom: 1em;
 }
