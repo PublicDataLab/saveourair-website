@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/style.css">
+	<title>Save Our Air - PublicDataLab</title>
+</head>
+
+<body>
+
+	<ul class="nav nav-pills justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link" href="index.html">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="about.html">About</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="credits.html">Credits</a>
+		</li>
+	</ul>
+
+	<div class="container" id="long-text">
+		<div class="row row-padding">
+			<div class="col-md-8 offset-md-2">
+				<h1>
+					My Air
+				</h1>
+				<p class="authors">
+					<strong>Team members:</strong> Anders Koed Madsen, Mathieu Jacomy, Guillaume Plique, Anders Kristian Munk, Mischa Szpirt , Nikolaj Frøsig &amp; Mads Retoft
+				</p>
+				<p>
+					MyAir is a teaching kit that enables pupils in upper secondary school to explore issues of air pollution with reference to their own daily whereabouts. Armed with a mobile pollution monitor and their mobile phone, the pupils can produce digital
+					maps that contain data about the routes they have traveled and the amount of pollution they have been exposed to at various points on these routes. The software developed as part of the MyAir project furthermore enables the pupils to upload
+					data from their sensor and mobile phone and to merge these into a personalized map. The interface allows them to crop the map to specific time-slots and print these for discussion in class. The teaching kit can be rented by teachers by
+					contacting the project team. It includes a mobile monitor, instructions for how to use the software, as well as a document containing teaching exercises that were tested in a 10th grade classroom in a Danish School. The aim of the teaching kit
+					is to stimulate pupils to do inquiry into the sources of air pollution that influences their personal lives. Here, inquiry is understood with reference to a Deweyan form a pedagogics, where the role of data in scientific education is used as a
+					tool to stimulate questions, rather than to find hard evidence giving facts about the world (Dewey, 2007 [1910/1933]).
+				</p>
+				<figure class="figure">
+					<img src="assets/my-air/prototype-interface.png" class="figure-img img-fluid rounded" alt="Figure 1: Pictures of the air sensors and the interface for data-exploration made available by the MyAir software.">
+					<figcaption class="figure-caption text-right">Figure 1: Pictures of the air sensors and the interface for data-exploration made available by the MyAir software.</figcaption>
+				</figure>
+				<p>
+					<a href="https://publicdatalab.github.io/personal-air-timeline/app/#!/upload">
+						GO TO FUNCTIONAL PROTOTYPE
+					</a>
+				</p>
+				<p>
+					GO TO SAMPLE DATA FROM <a href="datasets/my-air/Sampledata-AirLabs-Monitor.zip">MONITOR</a> AND <a href="datasets/my-air/Sampledata-IPhone.zip">PHONE</a>
+				</p>
+				<p>
+					<a href="https://github.com/PublicDataLab/personal-air-timeline">
+						GO TO GITHUB REPOSITORY
+					</a>
+				</p>
+				<p>
+					<a href="https://docs.google.com/document/d/12-izmghLmD7Ln7hlbVswBo84OaPw0CXOeLOqxD_sY_A/edit">
+						GO TO TEACHING MATERIAL (in Danish)
+					</a>
+				</p>
+				<h2>Relation to the co-creation processes in SaveOurAir</h2>
+				<p>
+					In our preparation at the first SaveOurAir data sprint in London we had a conversation with Nick Pearce, Director of the Institute for Policy Research at the University of Bath, who suggested that schools were an interesting site of potential
+					intervention with local data storytelling about air pollution. The fact that kids are affected by the issue is a good lever to also raise awareness amongst their parents and local communities, not only for citizens taking action, but also to
+					build broader support for bigger policy changes at regional- and national level. The idea of building a tool that enables upper secondary pupils to tell personalized data stories was also discussed with other stakeholders and it ended up being
+					a guideline for the SaveOurAir data sprint in London
+				</p>
+				<p>
+					During this first sprint we met with Rachel Wrangham and Pamela Edwards from Camden Air Action who told us about existing initiatives aimed at gathering data on pollution around schools. These initiatives included for example helping pupils to
+					put up diffusion tubes in strategically selected spots around the school to measure NO2. During our conversations, we developed the idea that it would be interesting to experiment with less static ways of telling data-stories about schools. We
+					therefore designed a first mock-up for the teaching kit and we presented it at a public event where we got useful feedback from stakeholders. For instance, we became aware of the necessity for the user to become personally involved with the
+					data, to “fall in love with their own graph” so to say . For this to happen, we needed to have a high resolution of pollution and geo-location, and a quick response to changes in pollution levels, or else the information would not appear
+					relevant or interesting to the user. According to the feedback and insights, this would be needed to have a commitment from the user to the teaching scenario.
+				</p>
+				<figure class="figure">
+					<img src="assets/my-air/feedback-mock-up.jpg" class="figure-img img-fluid rounded" alt="Figure 2: Presenting and getting feedback on the first mock-up at a public event in London.">
+					<figcaption class="figure-caption text-right">Figure 2: Presenting and getting feedback on the first mock-up at a public event in London.</figcaption>
+				</figure>
+				<p>
+					The second data-sprint in Copenhagen was dedicated to create a workable prototype based on the mock-up produced in London. However, before making the final design we needed inputs from a teacher to help with the data-visualizations shown to the
+					pupils, as well as to specify the teaching context in which our tool could be used. After making initial design sketches, we met with Niels Gorm, a teacher from a school in Gentofte, Copenhagen. He gave us useful feedback and invited us to come
+					and test our teaching kit for three days in his class. This ‘design after design’ event was held in March. <a href="https://goo.gl/wXmJYa">Full documentation of the event can be found here</a>.
+				</p>
+				<p>
+					Furthermore, the prototype received useful feedback during final sessions in London with the original participants of the London sprint. Here, it was discussed how the project could be scaled to schools outside Denmark. Also, it was discussed
+					whether and how the pupils changed behavior after the teaching exercises. Finally, it was emphasized that using this teaching material may give rise to ethical issues. One scenario could be that pupils find out that people living in poor
+					neighborhoods are more exposed or people having smoking parents are more exposed to air issues than the rest of the class. Such potential ethical situations must be debated before use in class.
+				</p>
+				<figure class="figure">
+					<img src="assets/my-air/pupils-presenting.jpg" class="figure-img img-fluid rounded" alt="Figure 3: 10th grade pupils presenting a pollution-timeline of a visit to a local shopping mall.">
+					<figcaption class="figure-caption text-right">Figure 3: 10th grade pupils presenting a pollution-timeline of a visit to a local shopping mall.</figcaption>
+				</figure>
+
+				<h2>The user/public context</h2>
+				<p>
+					The teaching kit is designed with the 10th grade pupils in mind and it was ultimately tested on this user group. Also, it is build with a specific conception of these users in mind. It builds on the premise that students get engaged in the
+					learning exercise when they are invited to actively measure and compare. Again, designing for this active and problem-based mode of learning is something that can be traced back to the Deweyan foundation of the project (Dewey, 2007
+					[1910/1933]). This emphasis on active learning that is related to everyday life is something that is integrated in the curricula of Danish Schools. Through our conversation with Niels we got a better sense of the kind of user we were designing
+					for. For instance, we learned that his pupils were allowed to leave the school with a monitor in order to do experiments. Before we met with Niels, we were actually unsure about whether such off-school activities would require teachers to come
+					along. These conversations enabled us to design both the interface and the teaching activities with more detailed knowledge of the potential user.
+				</p>
+				<p>
+					Ultimately, this persona - the active pupil who can move around and do inquiry into his/her own daily whereabouts - anchors the project in a problem-based philosophy of teaching. This teaching draws lines back to educational theorists such as
+					John Dewey, who promoted the idea that pupils learn most effectively when they are allowed to engage experimentally with the aspects of the world they want to learn about (Dewey, 2007 [1910/1933]). Broadening the scope from the 10th grade in
+					Gentofte, the MyAir teaching kit has the potential to equip various publics (e.g. air activists) with new and more interactive means of representing the issue of air pollution, compared to the more static measures we encountered during the
+					first sprint in London. Event though the tool is designed and tested in the context of a 10th grade in Denmark, it has a broader reach.
+				</p>
+
+				<h2>The data used in the project</h2>
+				<p>
+					MyAir is a teaching kit that works by assembling the following four types of data-sources:
+					<ul>
+						<li>
+							First, the kit includes a monitor developed by Airlabs that measures pollution at PM2.5  and PM10 levels. The monitor is portable and when the pupils carry it around, it produces data-points at a specified time granularity. For instance, one
+							can set it to measure particles every five seconds and it will export a .txt file with these measurements on to a SD-card.
+						</li>
+						<li>
+							Second, the kit currently includes public data on yearly estimated averages of PM2.5 and PM10 levels from all households in Denmark. This data is based on modelled data from the Danish Centre for Environment and Energy (DCE) and it provides
+							the student the opportunity to compare his/her own measurements with the official averages in the same locations that he/she has visited.
+						</li>
+						<li>
+							Third, the pupils who use the kit are expected to turn on Google Timelines on their Google Maps mobile app, in order to track their whereabouts. When this is turned on, the pupils can export a .kml file from their monitor carried around,
+							which includes data-points containing the time, latitude and longitude of their movement.
+						</li>
+					</ul>
+					One of the outcomes of the Copenhagen MyAir data sprint is an open source <a href="https://medialab.github.io/personal-air-timeline/app/#!/upload">‘data-reconciler’</a> which automatically merges the data from the monitor, the official modelled
+					data, and the mobile phone. This is done through a drag and drop interface
+					shown below. When data is uploaded to the interface it will create a map that allows the user to explore his or her own personal air-pollution trajectory in the way illustrated in figure 1 above.
+				</p>
+				<figure class="figure">
+					<img src="assets/my-air/personal-air-timeline.png" class="figure-img img-fluid rounded" alt="Figure 4: The data-reconciler built as part of the MyAir experiment. Data is made available as data assets through Organicities.">
+					<figcaption class="figure-caption text-right">Figure 4: The data-reconciler built as part of the MyAir experiment. Data is made available as data assets through Organicities.</figcaption>
+				</figure>
+				<p>
+					The third data-source mobilized in the teaching kit is a journal pupils fill out while having the monitor. Pupils are asked to note down the context in which they are measuring, and provide guesses on the potential pollution sources existing in
+					that situation. For instance, the picture below shows two students making such notes during our field test at Gentofte School.
+				</p>
+				<figure class="figure">
+					<img src="assets/my-air/measuring-air-pollution.jpg" class="figure-img img-fluid rounded" alt="Figure 5: 10th grade pupil using the monitor while taking notes about the potential causes of air pollution in the specific location.">
+					<figcaption class="figure-caption text-right">Figure 5: 10th grade pupil using the monitor while taking notes about the potential causes of air pollution in the specific location.</figcaption>
+				</figure>
+				<p>
+					One of the roles that these notes play in the teaching situation is that they guide the selection of interesting timeframes in the map to be further explored. Here, the question about data quality is not whether these notes are “true”, in the
+					sense that the students remember the situation 100% correctly, but rather whether the annotations succeed in making the students interested in their own habits and whereabouts. The purpose of this is to ground the more conventional
+					data-sources, such as the PM outputs from the monitor, in a personal biography.
+				</p>
+
+				<h2>The ‘situating techniques’ used to make data-stories local</h2>
+				<p>
+					This brings us to the situating technique of the MyAir experiment, which can be summarized as personalization. In the visual interface, data is represented with reference to the personal localities and timeline of the user. The way the
+					interface enables interaction and inquiry is driven by the idea that it is the everyday life of the pupil that should guide the way he/she begins to ask questions about the issue of air pollution. This also means that peaks and patterns in the
+					visualization, that may be considered noise or outliers in other data-practices, can be the most valuable in a MyAir project. An example could be peaks in exposure when a train moves by that would otherwise be considered an uninteresting
+					irregularity if one were only interested in yearly averages.
+				</p>
+				<p>
+					Accordingly, the situation technique of personalization is a different way of making data local, compared to the often used technique of geo-referencing. For instance, the official data on yearly averages and the map produced by the reconciler
+					have the same level of granularity when it comes to geo-coordinates. For both datasets you could select your house and get a pollution level. The difference between the two lies in the strategy for situating. The official data prompts questions
+					such as, “is this street generally more polluted than this street”, whereas the MyAir map prompts questions such as, “was I more exposed to pollution on this street when I biked than when I was in a car”. The personalized situating technique
+					offers different types of questioning and thereby different types of learning. This is also true when compared to the initial initiatives of data and schools that we encountered in our conversations with activists in the London-sprint.
+					Personalized timelines provide for different modes of engagement, compared to static diffusion tubes outside a school.
+				</p>
+
+				<h2>What have we learned from the process?</h2>
+				<p>
+					During our test of the teaching kit in the 10th grade we saw the potentials of using personalization as a technique to stimulate specific modes of inquiry concerning the issue of air pollution. The software of MyAir prioritizes data that is
+					produced by mobile devices in a granular fashion. This means that pupils can turn their everyday whereabouts into data and think of changes in their daily practices. The effect of these adaptations, or small experiments, can then be seen in
+					their data. Accordingly, we learned how data can play a role in the inductive and hypothesis-generating aspects of a learning situation and not just function as evidence to be memorized. We experienced in practice how making data mobile and
+					granular underpins a distinct form of experimental and problem-based learning.
+				</p>
+				<p>
+					More specifically, we also learned a great deal about our user group, 10th graders in Denmark. First, we were impressed by their knowledge. We started the first day of the test by asking ourselves whether the level of the initial presentation
+					on air pollution was too low. They seemed very trained in taking in data and facts such as the difference between PM2.5 and PM10. However, we also experienced that they struggled with the parsing of the data and making the hypothesis for their
+					experiments. This shows that the aim of creating  a software, that engages pupils in experimental modes of reasoning, is a useful addition to the learning-technologies already available. In general we think that the prototype turned out
+					promising. The educational material in MyAir is intended to fill a whole week of schooling. Probably we should have tested MyAirfor this amount of time. However, for a proof of concept, we believe that our three days in Gentofte worked well.
+				</p>
+				<h2>
+					Next steps and requirements for the project
+				</h2>
+				<p>
+					The current status of the project is that we developed a functional prototype which was tested for three days in a Danish School. The teaching kit, which consists of a monitor, the software and teaching exercises can be rented by interested
+					teachers who want to conduct air pollution inquiries with their students. Furthermore, we imagine that this kit can also be useful for other users who wants to engage in such inquiries such as activists and citizen science groups.
+				</p>
+				<p>
+					In order to scale the project, there is a need for an external actor to take it up and promote it further. We have had conversations with a Danish organization that hosts and organizes the distribution of teaching materials and we have
+					discussed the possibility of using the teaching kit as the case in a so-called ‘mass-experiment’ that will take place in natural science classes across the country in 2019. Besides that we have seen interests from politicians in London to work
+					with the prototype in relation to campaigns about air pollution in and around schools.
+				</p>
+				<h2>
+					References
+				</h2>
+				<blockquote class="blockquote">
+					<ul class="bibliography">
+						<li>
+							DEWEY, John. How we Think, Digireads.com Publishing, 2007
+						</li>
+					</ul>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Footer -->
+	<footer class="page-footer">
+
+		<!-- Footer Links -->
+		<div class="container-fluid text-center text-md-left">
+
+			<!-- Grid row -->
+			<div class="row">
+
+				<!-- Grid column -->
+				<div class="col-md-5 offset-md-1">
+
+					<!-- Content -->
+					<p class="text-uppercase">Project funded by:</p>
+					<a href="https://ec.europa.eu/">
+						<img class="logo" src="assets/logo-eu-commission.png">
+					</a>
+					<a href="https://organicity.eu/">
+						<img class="logo" src="assets/logo-organicity.png">
+					</a>
+				</div>
+
+				<div class="col-md-5">
+
+					<!-- Content -->
+					<a href="https://creativecommons.org/licenses/by/4.0/">
+						<img src="assets/logo-CC-BY.png">
+					</a>
+					<p class="license" class="text-uppercase">EXCEPT WHERE OTHERWISE NOTED, CONTENT AND DATA ON THIS SITE IS LICENSED UNDER THE CREATIVE COMMONS ATTRIBUTION LICENSE.</p>
+
+				</div>
+
+			</div>
+			<!-- Grid row -->
+
+		</div>
+		<!-- Footer Links -->
+
+	</footer>
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
